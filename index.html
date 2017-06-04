@@ -13,10 +13,8 @@
   
 </head>
 
-<body>
-  
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<nav class="navbar navbar-inverse" data-spy = "affix" data-offset-top="197">
+<nav class="navbar navbar-inverse z-nav" data-spy = "affix" data-offset-top="0">
   <div class="container-fluid">
     <div class="navbar-header ">
       <a class="navbar-brand hi" href="#">WebSiteName</a>
@@ -28,43 +26,40 @@
     </ul>
   </div>
 </nav>
-<!-- why does increasing padding of outer div decrease size of innder div?? -->
-  <div class = "row">
-    <div class = "col-sm-2">
-    </div>
-    <div class = "col-sm-8 test" id = "abt">
-  
+
+  <div class = "daddy text-center">
+   
+    <div class = "test" id = "abt">
+    
     <h2 class = "text-center head"> About Me </h2> <br>
-    <div class = "text-center">
+
     <img class = " img-circle img-responsive center-block" src = "https://preview.ibb.co/jz1Vak/me.jpg" height ="180" width = "300"/>
-    </div>
-    <p class = "text-center"> I am a Computer Science undergraduate at CSU Sacramento with experience in front-end and back-end development. </p>
-    <p class = text-center>
+ 
+    <p class = ""> I am a Computer Science undergraduate at CSU Sacramento with experience in front-end and back-end development. </p>
+    <p>
     Click the links below to know more about me.
     </p>
 
 
 <div class = "text-center">
-  <div class="btn-group lul">
-     <button type="button" class="colorblue btn btn-social btn-linkedin link"><span class = "fa fa-linkedin"> </span> LinkedIn</button>
-   <button type="button" class="btn btn-social btn-github git"><span class = "fa fa-github"> </span> GitHub</button>
-  <button type="button" class="btn btn-info resume">Resume</button>
-  </div>
-    
+<i class="fa fa-3x fa-linkedin-square link " aria-hidden="true"></i>
+  
+  <i class="fa fa-3x fa-github-square git" aria-hidden="true"></i>
+  <i class="fa fa-3x fa-linkedin-square resume " aria-hidden="true"></i>
+  
   </div>
    
 </div>
     
 </div>
 
- <div class = "row">
- <div class = "col-sm-2">
-    </div>
-    <div class = "col-sm-8 test" id = "proj">
-     <hr/>
+ <div class = "row daddy">
+
+    <div class = "test" id = "proj">
+    
     <h2 class = "head text-center"> Projects </h2> <br>
     
-    <div class = "row text-center">
+    <div class = "row text-center lol">
       <div class = "col-xs-4">
         Project RUN
         <img class = "img-responsive" src = "https://preview.ibb.co/k1vOvk/Screen_Shot_2017_04_07_at_7_17_43_PM.png"/>
@@ -78,7 +73,7 @@
         <img class = "img-responsive" src = "https://pixy.org/images/placeholder.png"/>
   </div>
 </div> <br>
-     <div class = "row text-center">
+     <div class = "row text-center lol">
       <div class = "col-xs-4">
         Chatbot
         <img class = "img-responsive" src = "https://preview.ibb.co/fdcE1Q/Screen_Shot_2017_04_09_at_8_13_23_PM.png"/>
@@ -94,15 +89,42 @@
 </div>
   </div>
 </div>
-  <div class = "row">
-    <div class = "col-sm-2">
-    </div>
-    <div class = "col-sm-8 test" id = "contact">
+  <div class = "row daddy">
+    
+    <div class = "test text-center" id = "contact">
       <hr/>
     <h2 class = "head text-center">Contact Me</h2>
-     </div>
+      <div class="form-group row">
+       
+      <div class="col-xs-4">
+        </div>
+     <div class="col-xs-4">
+    <label for="text1">Name </label>
+    <input class="form-control" id="text1" type="text">
   </div>
-</body>
+      </div>
+       <div class="form-group row">
+         <div class="col-xs-4">
+         </div>
+      <div class="col-xs-4">
+    <label for="text2">Email </label>
+    <input class="form-control" id="text2" type="text">
+  </div>
+         
+      </div>
+      
+      <div class="form-group row center">
+  <label for="comment" class = "text-center">Comment</label>
+         <div class = "center">
+  <textarea class="form-control" rows="4" id="comment"></textarea>
+           </div>
+</div>
+    </div>
+        
+     </div>
+ 
+
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
