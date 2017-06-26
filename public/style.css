@@ -10,28 +10,19 @@
 
 
 .center{
- text-align: center;
- margin: auto;
-  width: 750px;
+ 
+ margin-left: 130px;
+  width: 430px;
 }
 
 body {
-  background: #7B8D8E;
- 
+  background-color: #19A0D9;
   font-size: 20px;
   font-family: verdana;
 }
-.test{
-  background: #74a0a1;
-}
-.colorblue {
-  color: #0077b5;
-}
 
-.head {
-  color: black;
-  
-}
+
+
 
 .affix {
       top: 0;
@@ -44,12 +35,33 @@ body {
 
 .daddy{
   height: 100%;
+    padding: 2em;
+
 }
 
 .lol {
    height: 300px;
     overflow: hidden;
+    margin-top: 2em;
 }
 
+.purple {
+  background-color: #6c16c7;
+}
+
+.blue {
+   background-color: #19A0D9;
+}
+.white {
+  background-color: white;
+}
+
+#proj {
+  color:white;
+}
+
+.cont {
+  margin-bottom: 2em;
+}
 
 
