@@ -1,48 +1,56 @@
-.z-nav {
-  z-index:1;
-}
-
-.hi {
-  font-size:1.5em;
- 
-}
-
-
-
-.center{
- 
- margin-left: 130px;
-  width: 430px;
-}
-
 body {
   background-color: #19A0D9;
   font-size: 20px;
   font-family: verdana;
 }
 
+.z-nav {
+  z-index:1;
+}
+
+/* adjust nav column size*/
+.hi {
+  font-size:1.5em;
+ 
+}
+
+/*adjust padding of each section */
+.daddy{
+  padding-top: 2em;
+  padding-bottom : 3em;
+
+}
 
 
 
+#project {
+  padding-bottom: 2em;
+}
+
+/*navbar stuff need to fix still */
 .affix {
       top: 0;
       width: 100%;
   }
 
-  .affix + .container-fluid {
+.affix + .container-fluid {
       padding-top: 70px;
   }
 
-.daddy{
-  height: 100%;
-    padding: 2em;
 
+
+.lol img {
+  display: inline-block;
+  height: 350px;
+  width: 400px;
 }
 
 .lol {
-   height: 300px;
-    overflow: hidden;
-    margin-top: 2em;
+   margin-top: 2em;
+    
+}
+.pad {
+  padding: 1.5em;
 }
 
 .purple {
@@ -62,6 +70,14 @@ body {
 
 .cont {
   margin-bottom: 2em;
+}
+
+.te {
+
+  width:420px;
+-webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box;   
+box-sizing: border-box;        
 }
 
 
