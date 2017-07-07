@@ -1,11 +1,6 @@
 body {
-  background-color: #19A0D9;
   font-size: 20px;
   font-family: verdana;
-}
-
-.z-nav {
-  z-index:1;
 }
 
 /* adjust nav column size*/
@@ -22,7 +17,6 @@ body {
 }
 
 
-
 #project {
   padding-bottom: 2em;
 }
@@ -31,18 +25,53 @@ body {
 .affix {
       top: 0;
       width: 100%;
+      z-index:9999 !important;
   }
 
 .affix + .container-fluid {
-      padding-top: 70px;
+  position: relative;
+  top : -50px;
+   
   }
 
+i.fa:hover {
+  color: #CCFFCC;
+  cursor: pointer;
+}
 
+.rel {
+  position: relative;
+   height: 350px;
+  width: 400px;
+    display: inline-block;
+}
 
 .lol img {
   display: inline-block;
   height: 350px;
   width: 400px;
+
+
+}
+
+/*make bottom and left 24 px to account for padding */
+span {
+ width: 368px;
+  height: 50px;
+  text-align: center;
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  display: none;
+  background-color: #000;
+  opacity: .7;
+  color: #fff;
+
+}
+
+.rel:hover span {
+  display: block;
+}
 }
 
 .lol {
@@ -50,7 +79,7 @@ body {
     
 }
 .pad {
-  padding: 1.5em;
+  padding: 16px;
 }
 
 .purple {
@@ -58,7 +87,8 @@ body {
 }
 
 .blue {
-   background-color: #19A0D9;
+   
+  background-color: #19A0D9;
 }
 .white {
   background-color: white;
@@ -79,5 +109,6 @@ body {
 -moz-box-sizing: border-box;   
 box-sizing: border-box;        
 }
+
 
 

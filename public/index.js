@@ -9,16 +9,17 @@ $(".resume").click(function(){
 window.open('https://drive.google.com/open?id=0B2A-FOmRoyVdOHEyZ2NXdDlLaG8');
 });
 
-$("i").hover(
+/*$("i").hover(
   function() {
-  $(this).addClass("fa-4x");
+  $(this).css("color","#CCFFCC");
   },
   
   function(){
-    $(this).removeClass("fa-4x");
+    $(this).css("color","");
   } 
   
 );
+*/
 
 
 /*
