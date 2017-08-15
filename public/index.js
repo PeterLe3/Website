@@ -9,6 +9,10 @@ $(".resume").click(function(){
 window.open('https://drive.google.com/open?id=0B2A-FOmRoyVdOHEyZ2NXdDlLaG8');
 });
 
+
+$(".toTop").click(function() {
+	document.body.scrollTop = 0;
+})
 /*$("i").hover(
   function() {
   $(this).css("color","#CCFFCC");
