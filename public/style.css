@@ -1,7 +1,9 @@
 body {
   font-size: 20px;
-  font-family: verdana;
-  background:  -webkit-linear-gradient(left top, rgba(211,211,211,0), rgba(0,0,0,.7));
+  font-family: arial;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMFP3Jw5cW2kd6M6_yjzJfS-59rVXerzzKI84KvjFTvwN9UX_aA");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* adjust nav column size*/
@@ -10,14 +12,29 @@ body {
  
 }
 
+h1 {
+  font-size:50px;
+}
+
 /*adjust padding of each section */
 .daddy{
   padding-top: 2em;
   padding-bottom : 3em;
-
+  height:33%;
+  
 }
 
+.imgAbout {
 
+opacity:.9;
+position: relative;
+box-shadow:  0px 0px 20px black;
+}
+
+/*.bigDiv {
+  height:100%;
+  position: relative;
+}*/
 #project {
   padding-bottom: 2em;
 }
@@ -42,9 +59,9 @@ i.fa:hover {
 
 .rel {
   position: relative;
-   height: 350px;
+  height: 350px;
   width: 400px;
-    display: inline-block;
+  display: inline-block;
 }
 
 .lol img {
@@ -56,7 +73,7 @@ i.fa:hover {
 }
 
 span {
- width: 400px;
+  width: 400px;
   height: 50px;
   position: absolute;
   bottom: 0;
@@ -92,8 +109,19 @@ span {
   background-color: white;
 }
 */
+.blackDiv {
+  
+  opacity:.4;
+  color: black;
+  background-color: #D4D7FE;
+  box-shadow:  0px 0px 20px black;
+  position:relative;
 
+}
 
+.quote {
+  font-family:cursive;
+}
 
 .cont {
   margin-bottom: 2em;
@@ -111,4 +139,73 @@ input {
   width:100%;
 }
 
+.fields {
+  margin-top: 20px;
+}
 
+form input[type=text] {
+  padding-
+}
+.iconsBot{
+  margin-bottom:40px;
+}
+
+.rel :hover {
+  transform:scale(1.1);
+}
+span:hover {
+  transform:scale(1.1);
+}
+
+
+
+.circle {
+  background:#fda085;
+  opacity:.7;
+  height: 650px;
+  width:650px;
+  border-radius:50%;
+  margin: auto;
+  box-shadow:  0px 0px 10px black;
+}
+
+.abtCont {
+  position:relative;
+  transform: scale(.9);
+  height:100%;
+  display:flex;
+
+}
+
+.introP {
+  position:absolute;
+  top:30%;
+
+}
+.introText {
+  font-size:24px;
+  
+}
+
+
+.introIcons {
+  position:absolute;
+  left:0;
+  right:0;
+  margin:auto;
+  top:15%;
+ 
+  
+
+}
+.introImg {
+  box-shadow:  0px 0px 20px black;
+}
+.introHead {
+  font-size: 36px;
+  display:;
+}
+
+.stuff {
+  z-index:1000;
+}

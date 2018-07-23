@@ -8,12 +8,12 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
 
-      <link rel="stylesheet" href="public/style.css">
+<link rel="stylesheet" href="public/style.css">
 
   
 </head>
-
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
+<!-- <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <nav class="navbar navbar-inverse" data-spy = "affix" data-offset-top="0">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
@@ -22,33 +22,50 @@
       <li><a href="#contact" class = "hi">  Contact</a></li>
     </ul>
   </div>
-</nav>
+</nav> -->
 
 <!-- first section -->
-  <div class = "daddy text-center blue"  id = "abt">
-    <div class = "test">
-      <div class = "text-center"> <h1> Peter Le </h1> </div> <br>
-      <img class = " img-circle img-responsive center-block" src = "https://preview.ibb.co/jz1Vak/me.jpg" height ="180" width = "300"/>
-      <h2> About Me </h2>
-      <p> I am a Computer Science undergraduate at CSU Sacramento with experience in front-end and back-end development. </p>
-      <p>Click the links below to know more about me. </p>
 
-      <div class = "text-center">
+    <div class = "daddy" id ="abt">
+      <div class = "text-center"> <h1> <strong>Peter Le</strong> </h1> </div> <br>
+      <div class = "row abtCont">
+        <div class = "col-xs-5">
+         
+         <img class = "imgAbout img-responsive" src = "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/22448578_1501843116571731_6556976003208867611_n.jpg?_nc_cat=0&oh=f3713684173675b3ec782aa33722b0dd&oe=5BD1E384"/>
+        </div>
+        <div class = "col-xs-2">
+        </div>
+        
+      <div class = "col-xs-5 text-center blackDiv">
+      <div "stuff">
+      <h2 class = "text-center introHead"> <strong>About Me </strong></h2>
+        <div class = "introIcons">
         <i class="fa fa-3x fa-file-text-o resume " aria-hidden="true"></i>
         <i class="fa fa-3x fa-linkedin-square link " aria-hidden="true"></i>
         <i class="fa fa-3x fa-github-square git" aria-hidden="true"></i>
- 
+      </div> 
+      <div class = "introP">
+        <p class = "introText"> I am a Computer Science undergraduate at CSU Sacramento with experience in front-end and back-end development. </p>
+        <br>
+        <br>
+        <p class = "quote"> "I'll put something cool here later." </p>
+        <p> -Peter Le </p>
       </div>
-    </div>  
+      </div>
+     
+      </div>
+    </div>
+      
+  
   </div>
 
 <!-- second section -->
 
- <div class = " daddy purple" id = "proj">
+ <div class = " daddy" id = "proj">
 
-    <div class = "test text-center">
+    <div class = " text-center">
     
-     <h1> Projects </h1><br>
+     <h2> <strong>Projects </strong></h1><br>
    
      <div class = "lol">
         <div class = "rel pad">
@@ -64,8 +81,8 @@
    
    
         <div class = "rel pad">
-          <img class = "img-responsive" src = "https://pixy.org/images/placeholder.png"/>
-          <span> Placeholder </span>
+          <img class = "img-responsive" src = "https://image.ibb.co/nCN9Gy/Screen_Shot_2018_07_22_at_2_08_01_PM.png"/>
+          <span> Tribute Page </span>
         </div>
 
 
@@ -97,41 +114,41 @@
   <!-- third section-->
   <div class = "daddy white" id = "contact">
   
-      <h1 class = "cont text-center">Contact Me</h1>
+      <h2 class = "cont text-center"><strong>Contact Me </strong></h1>
 
-        <div class = "text-center">
+        <div class = "text-center iconsBot">
           <i class="fa fa-3x fa-file-text-o resume " aria-hidden="true"></i>
           <i class="fa fa-3x fa-linkedin-square link " aria-hidden="true"></i>
           <i class="fa fa-3x fa-github-square git" aria-hidden="true"></i>
       </div>
-      <br>
-
-      <div class="row ">
-        <div class = "col-xs-offset-3 col-xs-2">
-           <input id="text1" type="text" placeholder = "Name">    
-       </div>
-       <div class = "col-xs-2">
-       </div>
-        <div class = "col-xs-2">
-           <input id="text2" type="text" placeholder = "Email">
+      <div class = "circle">
+        <div class="row fields">
+          <div class = "col-xs-offset-3 col-xs-3">
+             <input id="text1" type="text" placeholder = "Name">    
+         </div>
+      </div>
+     
+         <div class ="row fields">
+           <div class = "col-xs-offset-3 col-xs-3">
+             <input id="text2" type="text" placeholder = "Email">
+          </div>
         </div>
-     </div>
-     <br> 
+       
 
-     <div class = "row">
-       <div class = "col-xs-offset-3 col-xs-6">
-         <input id="text3" type="text" placeholder = "Subject">
+       <div class = "row fields">
+         <div class = "col-xs-offset-3 col-xs-3">
+           <input id="text3" type="text" placeholder = "Subject">
+         </div>
        </div>
-     </div>
-      <br> 
-    
-      <div class = "row">
-        <div class = "col-xs-offset-3 col-xs-6">
-         <textarea class="form-control " rows="4" id="comment" placeholder ="comments"></textarea>
-        </div>
+      
+        <div class = "row fields">
+          <div class = "col-xs-offset-3 col-xs-5">
+           <textarea class="form-control " rows="5" id="comment" placeholder ="Comments"></textarea>
+          </div>
+      </div>
     </div>
+  </div>
 
-</div>
         
      
  

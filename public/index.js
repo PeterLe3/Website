@@ -13,6 +13,10 @@ window.open('https://drive.google.com/open?id=0B2A-FOmRoyVdOHEyZ2NXdDlLaG8');
 $(".toTop").click(function() {
 	document.body.scrollTop = 0;
 })
+
+// $(".introHead").delay(500).fadeIn(2000);
+// $(".introIcons").delay(700).fadeIn(2000);
+// $(".introText").delay(900).fadeIn(2000);
 /*$("i").hover(
   function() {
   $(this).css("color","#CCFFCC");
