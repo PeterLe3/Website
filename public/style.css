@@ -7,6 +7,17 @@ body {
 }
 
 /* adjust nav column size*/
+.name{
+  top:80%;
+  position:absolute;
+  left:0;
+  right:0;
+  margin:auto;
+  color:white;
+  font-size:50px;
+  
+  font-weight:lighter;
+}
 .hi {
   font-size:1.5em;
  
@@ -18,15 +29,14 @@ h1 {
 
 /*adjust padding of each section */
 .daddy{
-  padding-top: 2em;
-  padding-bottom : 3em;
-  height:33%;
+
+
   
 }
 
 .imgAbout {
 
-opacity:.9;
+
 position: relative;
 box-shadow:  0px 0px 20px black;
 }
@@ -111,7 +121,7 @@ span {
 */
 .blackDiv {
   
-  opacity:.4;
+  opacity:.6;
   color: black;
   background-color: #D4D7FE;
   box-shadow:  0px 0px 20px black;
@@ -168,7 +178,13 @@ span:hover {
   margin: auto;
   box-shadow:  0px 0px 10px black;
 }
+.moon {
+  background-image: url("https://preview.ibb.co/buG768/18dd0186126b1b3255e3e59131269181.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
 
+}
 .abtCont {
   position:relative;
   transform: scale(.9);
@@ -181,9 +197,13 @@ span:hover {
   position:absolute;
   top:30%;
 
+
+
 }
 .introText {
   font-size:24px;
+   
+
   
 }
 
@@ -203,9 +223,14 @@ span:hover {
 }
 .introHead {
   font-size: 36px;
-  display:;
 }
 
-.stuff {
-  z-index:1000;
+
+.try {
+  height:100%;
 }
+
+#abt {
+  height:100vh;
+}
+
