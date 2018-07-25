@@ -28,11 +28,6 @@ h1 {
 }
 
 /*adjust padding of each section */
-.daddy{
-
-
-  
-}
 
 .imgAbout {
 
@@ -133,9 +128,9 @@ span {
   font-family:cursive;
 }
 
-.cont {
-  margin-bottom: 2em;
-}
+/*.cont {
+ top: 5%;
+}*/
 
 .te {
 
@@ -150,14 +145,25 @@ input {
 }
 
 .fields {
-  margin-top: 20px;
+  position: absolute;
+  left:0;
+  right:0;
+  margin:auto;
+  width:40%;
+  
 }
 
 form input[type=text] {
   padding-
 }
 .iconsBot{
-  margin-bottom:40px;
+  left:0;
+  right:0;
+  margin:auto;
+  position: absolute;
+  top:65%;
+  color:black;
+
 }
 
 .rel :hover {
@@ -170,19 +176,21 @@ span:hover {
 
 
 .circle {
-  background:#fda085;
-  opacity:.7;
-  height: 650px;
-  width:650px;
+  background:#C2E184;
+  height: 45vw;
+  width:45vw;
   border-radius:50%;
   margin: auto;
+  opacity: .6;
   box-shadow:  0px 0px 10px black;
+  position:relative;
 }
 .moon {
   background-image: url("https://preview.ibb.co/buG768/18dd0186126b1b3255e3e59131269181.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
+  z-index:100;
 
 }
 .abtCont {
@@ -232,5 +240,53 @@ span:hover {
 
 #abt {
   height:100vh;
+}
+.vh {
+  height:100vh;
+}
+
+.nameInput{
+  top:12%;
+
+}
+.emailInput {
+  top:22%;
+}
+
+.subjectInput {
+  top:32%;
+}
+.textInput {
+  top:42%;
+
+
+}
+
+.contactMe {
+  left:0;
+  right:0;
+  color: black;
+  position:absolute;
+
+
+}
+.inputs {
+  border-radius:25px;
+  font-style:italic;
+  color:black;
+ background-color:white;
+
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+}
+
+#contact {
+  margin-top:3em;
 }
 
