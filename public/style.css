@@ -1,11 +1,15 @@
 body {
   font-size: 20px;
   font-family: arial;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMFP3Jw5cW2kd6M6_yjzJfS-59rVXerzzKI84KvjFTvwN9UX_aA");
+ /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMFP3Jw5cW2kd6M6_yjzJfS-59rVXerzzKI84KvjFTvwN9UX_aA");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
+  background: #9297C4;
 }
 
+h2 {
+  padding-top:20px;
+}
 /* adjust nav column size*/
 .name{
   top:80%;
@@ -33,8 +37,8 @@ h1 {
 left:0;
 right:0;
 margin:auto;
-width:35vw;
-height:50vh;
+width:25vw;
+height:35vh;
 
 box-shadow: 0px 0px 20px black;
 opacity: 1 !important;
@@ -67,7 +71,7 @@ i.fa:hover {
   cursor: pointer;
 }
 
-.rel {f
+.rel {
   position: relative;
   height: 35vh;
   width: 25vw;
@@ -76,7 +80,7 @@ i.fa:hover {
 
 .lol img {
   display: block;
-  height: 35vh;
+  height: 30vh;
   width: 25vw;
   max-width:inherit;
 
@@ -125,9 +129,10 @@ span {
 
   left:0;
   right:0;
+  padding-bottom:100px;
   margin:auto;
   color: black;
-  background-color: rgb(212, 215, 254,.6);
+  background-color:#BE90D4;
   box-shadow:  0px 0px 20px black;
   position:relative;
   max-height:inherit;
@@ -190,24 +195,26 @@ span:hover {
 
 
 .circle {
-  background: rgb(  194, 225, 132,.6);
-  height: 45vw;
-  width:45vw;
+/*  background:  rgb(212, 215, 254);*/
+  height: 55vw;
+  width:55vw;
   border-radius:50%;
   margin: auto;
   word-wrap:break-word;
-
+overflow : auto;
   max-height:inherit;
-
+overflow-y:hidden;
   box-shadow:  0px 0px 10px black;
   position:relative;
+  background-color:#BE90D4;
 }
 .moon {
-  background-image: url("https://preview.ibb.co/buG768/18dd0186126b1b3255e3e59131269181.jpg") !important;
+  background-image: url("https://image.ibb.co/fqpHQU/unspecified_1.jpg")  !important;
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
   z-index:100;
+    background-position: 50% 50%;
   margin-bottom:50px;
 
 }
@@ -228,7 +235,7 @@ height:100vh;
 }
 .introText {
   font-size:20px;
-  width:60%;
+  width:75%;
   margin:auto;
   margin-top:1em;
 
@@ -302,11 +309,11 @@ height:100vh;
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: black;
-    opacity: 1; /* Firefox */
+    opacity: .6; /* Firefox */
 }
 
 #contact {
-
+  margin-top:50px;
   position:relative;
 }
 
@@ -315,9 +322,7 @@ height:100vh;
   position:relative;
 
 }
-/*.wtf{
-  position:absolute;
-}*/
+
 
 .testing {
   margin-top:50px;
@@ -328,4 +333,11 @@ height:100vh;
 span {
   display:none;
 }
+#submitVal {
+    left:0;
+  right:0;
+  margin:auto;
+  width:40%;
+}
+
 

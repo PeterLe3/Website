@@ -59,9 +59,9 @@
       
   
   </div> -->
-
+ 
  <div class = "try" id = "abt">
-
+      
     <div class = "text-center blackDiv wtf">
     
      <h2> <strong>About Me </strong></h2><br>
@@ -76,9 +76,9 @@
        
           <p class = "quote"> "I'll put something cool here later." </p>
          
-       <div class = "testing">
+    <!--    <div class = "testing">
       <img class = "imgAbout img-responsive" src = "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/22448578_1501843116571731_6556976003208867611_n.jpg?_nc_cat=0&oh=f3713684173675b3ec782aa33722b0dd&oe=5BD1E384"/>
-      </div>
+      </div> -->
       
 
   
@@ -120,7 +120,7 @@
         </div>
  
        
-      
+      <!-- 
         <div class = "rel pad">
           <img class = "img-responsive" src = "https://pixy.org/images/placeholder.png"/>
           <span> Placeholder </span>
@@ -131,7 +131,7 @@
         <div class = "rel pad">
          <img class = "img-responsive" src = "https://pixy.org/images/placeholder.png"/>
           <span> Placeholder </span>
-        </div>
+        </div> -->
  
     </div>
   </div>
@@ -144,13 +144,14 @@
     
 
       <div class = "circle text-center">
-      <h2> <strong>Projects </strong></h2><br>
+      <h2> <strong>Contact Me </strong></h2><br>
+      <form action="mailto:lepeter125@gmail.com" method="post" enctype="text/plain">
         <div class="fields nameInput">
-          <input class = "inputs" id="text1" type="text" placeholder = "Name">    
+          <input class = "inputs" id="text1" type="text" placeholder = "Name" name = "name">    
       </div>
      
          <div class ="emailInput fields">
-             <input class = "inputs" id="text2" type="text" placeholder = "Email">
+             <input class = "inputs" id="text2" type="text" placeholder = "Email" name = "email">
         </div>
        
 
@@ -160,13 +161,15 @@
       
         <div class = "textInput  fields">
           
-           <textarea class="form-control inputs" rows="5" id="comment" placeholder></textarea>
+           <textarea class="form-control inputs" rows="5" id="comment" placeholder name = "comment"></textarea>
       </div>
+      <input class = "inputs" id = "submitVal" type="submit" value="Send">
       <div class = "text-center iconsBot">
           <i class="fa fa-3x fa-file-text-o resume " aria-hidden="true"></i>
           <i class="fa fa-3x fa-linkedin-square link " aria-hidden="true"></i>
           <i class="fa fa-3x fa-github-square git" aria-hidden="true"></i>
       </div>
+      </form>
     </div>
   </div>
 
