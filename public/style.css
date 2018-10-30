@@ -179,6 +179,7 @@ input {
   left:0;
   right:0;
   margin:auto;
+  margin-top:20px;
 
 
   color:black;
@@ -209,7 +210,7 @@ overflow-y:hidden;
   background-color:#BE90D4;
 }
 .moon {
-  background-image: url("https://image.ibb.co/fqpHQU/unspecified_1.jpg")  !important;
+  background-image: url("../peterle2.JPG")  !important;
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
@@ -273,6 +274,7 @@ height:100vh;
 
 .nameInput{
   margin-bottom:20px;
+  margin-top:20px;
 
 }
 .emailInput {
