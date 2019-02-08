@@ -4,7 +4,24 @@ body {
  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMFP3Jw5cW2kd6M6_yjzJfS-59rVXerzzKI84KvjFTvwN9UX_aA");
   background-repeat: no-repeat;
   background-size: cover;*/
-  background: #9297C4;
+ /* background: #9297C4;*/
+}
+.purple {
+ background-color:#BE90D4;
+}
+.leftSide {
+
+  color:black;
+  border-radius:;
+  font-family:fantasy;
+  width:20%;
+}
+.rightSide{
+  width:80%;
+}
+.flex {
+  display: flex;
+  flex-direction:row;
 }
 
 h2 {
@@ -88,20 +105,18 @@ i.fa:hover {
 }
 
 span {
-  width: 400px;
-  height: 50px;
+  width:100%;
+  height:40px;
   position: absolute;
-  bottom: 0;
-  display: none;
+  bottom: 20;
+  display:block;
   background-color: #000;
   opacity: .7;
   color: #fff;
 
 }
 
-.rel:hover span {
-  display: block;
-}
+
 }
 
 .lol {
@@ -124,7 +139,7 @@ span {
   background-color: white;
 }
 */
-.blackDiv {
+/*.blackDiv {
   width: 75vw;
 
   left:0;
@@ -138,7 +153,7 @@ span {
   max-height:inherit;
   
 
-}
+}*/
 
 .quote {
   font-family:cursive;
@@ -180,18 +195,10 @@ input {
   right:0;
   margin:auto;
   margin-top:20px;
-
-
   color:black;
 
 }
 
-.rel :hover {
-  transform:scale(1.1);
-}
-span:hover {
-  transform:scale(1.1);
-}
 
 
 
@@ -210,13 +217,13 @@ overflow-y:hidden;
   background-color:#BE90D4;
 }
 .moon {
-  background-image: url("../peterle2.JPG")  !important;
+
+  background-image: url("public/peterle2.JPG")  !important;
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
-  z-index:100;
+  z-index:1000;
     background-position: 50% 50%;
-  margin-bottom:50px;
 
 }
 .abtCont {
@@ -235,6 +242,7 @@ height:100vh;
 
 }
 .introText {
+  text-align:left;
   font-size:20px;
   width:75%;
   margin:auto;
@@ -315,8 +323,7 @@ height:100vh;
 }
 
 #contact {
-  margin-top:50px;
-  position:relative;
+
 }
 
 .proj{
@@ -332,9 +339,7 @@ height:100vh;
   position:relative;
 
 }
-span {
-  display:none;
-}
+
 #submitVal {
     left:0;
   right:0;
