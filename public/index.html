@@ -21,23 +21,23 @@
 
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<nav class="navbar navbar-inverse" data-spy = "affix" data-offset-top="0">
+<nav id = "navbar" class="navbar navbar-inverse" data-spy = "affix" data-offset-top="0">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
       <li>  <a href="#abt" class = "hi"> About </a></li>
-      <li><a href="#proj" class = "hi">  Project</a></li>
+      <li><a href="#projects" class = "hi">  Project</a></li>
       <li><a href="#contact" class = "hi">  Contact</a></li>
     </ul>
   </div>
 </nav>
 
-  <div class = "text-center mainPicture">
+  <div id = "welcomeSection" class = "text-center mainPicture">
     <h1 class = "name"> PETER LE </h1>    
   </div>
 
 
   <div class = "flex">
-    <div class = "leftSide purple text-center">  
+    <div class = "leftSide text-center">  
       <h2> <strong>About Me </strong></h2>
       <i class="fa fa-3x fa-user"></i>
     </div>
@@ -57,29 +57,29 @@
 
   <!-- second section -->
   <div class = "flex">
-    <div class = "leftSide purple text-center">
+    <div class = "leftSide text-center">
       <h2> <strong>Projects </strong></h2><br>
       <i class="fa fa-3x fa-free-code-camp" aria-hidden="true"></i>
     </div>
-    <div id = "proj" class = "text-center rightSide" >    
+    <div id = "projects" class = "text-center rightSide" >    
       <div class = "imgDiv">
-        <div class = "rel pad">
+        <div class = "project-tile">
           <img class = " img-responsive" src = "https://preview.ibb.co/k1vOvk/Screen_Shot_2017_04_07_at_7_17_43_PM.png"/>
           <span> Project Run </span>
         </div>
              
-        <div class = "rel pad">
+        <div class = "project-tile">
           <img class = "img-responsive " src = "https://preview.ibb.co/eV00xv/ranquote.png"/>
           <span> Random Quotes </span>
         </div>
      
      
-        <div class = "rel pad">
+        <div class = "project-tile">
           <img class = "img-responsive" src = "https://image.ibb.co/nCN9Gy/Screen_Shot_2018_07_22_at_2_08_01_PM.png"/>
           <span> Tribute Page </span>
         </div>
 
-        <div class = "rel pad">
+        <div class = "project-tile">
           <img class = " img-responsive" src = "https://preview.ibb.co/fdcE1Q/Screen_Shot_2017_04_09_at_8_13_23_PM.png"/>
           <span> ChatBot </span>
         </div>
@@ -90,20 +90,20 @@
 
   <!-- third section-->
 <div class = "flex">
-  <div class = "leftSide purple text-center"> 
+  <div class = "leftSide text-center"> 
     <h2> <strong>Contact Me </strong></h2>
     <br>
     <div>lepeter125@gmail.com </div>
     <br>
     <div> 916-831-0829</div>
-    <div class = "text-center iconsBot">
+    <div class = "text-center profileLink">
       <i class="fa fa-2x fa-file-text-o resume " aria-hidden="true"></i>
       <i class="fa fa-2x fa-linkedin-square link " aria-hidden="true"></i>
       <i class="fa fa-2x fa-github-square git" aria-hidden="true"></i>
     </div>
   </div>
   <div id = "contact" class = " text-center rightSide">
-    <form action="mailto:lepeter125@gmail.com" method="post" enctype="text/plain">
+    <form target = "self" onsubmit="sendEmail(); return false;" enctype="text/plain">
       <div class="fields nameInput">
         <input class = "inputs" id="text1" type="text" placeholder = "Name" name = "name">    
       </div>

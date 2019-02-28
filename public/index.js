@@ -14,26 +14,15 @@ $(".toTop").click(function() {
 	document.body.scrollTop = 0;
 })
 
-// $(".introHead").delay(500).fadeIn(2000);
-// $(".introIcons").delay(700).fadeIn(2000);
-// $(".introText").delay(900).fadeIn(2000);
-/*$("i").hover(
-  function() {
-  $(this).css("color","#CCFFCC");
-  },
-  
-  function(){
-    $(this).css("color","");
-  } 
-  
-);
-*/
+function sendEmail() {
+	var email = "mailto:lepeter125@gmail.com?";
+	var subject = "subject=" + $("#text3").val();
+	var text = "body=" + encodeURIComponent($("#comment").val().trim());
+	email += subject + "&" + text;
+
+	window.location.href=email;
 
 
-/*
-$(".proj-tab").click(function(){
-$.scrollTo("#proj");
-   });
-*/
+}
 
 
